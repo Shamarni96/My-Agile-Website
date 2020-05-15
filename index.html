@@ -12,28 +12,32 @@
   </head>
   <body>
     <div class="container-xl">
-    <div class="jumbotron mt-0 mb-3">
+    <div class="jumbotron mb-0 mt-3">
         <h1 class="display-4">Agile and Scrum</h1>
         <p class="lead">This website will give you basic insight into agile and scrum and what they consist of.</p>
       </div>
       <!--navbar info-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Contents</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Agile <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Scrum</a>
-            <a class="nav-item nav-link" href="#">Scrum vs Kanban</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Kanban</a>
-          </div>
+        <div class="navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav item active">
+               <a class="nav-item nav-link active" href="#">Agile <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav item">
+               <a class="nav-item nav-link" href="#">Scrum</a>
+             </li>
+             <li class="nav item">
+               <a class="nav-item nav-link" href="#">Scrum vs Kanban</a>
+             </li>
+          </ul>
+          <span class="navbar-text d-none d-md-inline">
+              By Shamarni McFarlane
+          </span>
         </div>
       </nav>
       <!--navbar collumn-->
-       <div class="row-justify-content-md-center mt-4">
-          <div class="col-md-4 mb-4">
+       <div class="row justify-content-md-center mt-4">
+          <div class="col-md-3  mb-4">
               <nav class="navbar bg-light">
                 <div class="navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
@@ -49,10 +53,20 @@
                      </ul>
                 </div>
              </nav>
+             <!--newsletter card-->
+             <div class="card bg-light w-70 mt-4">
+                <div class="card-body">
+                  <h5 class="card-title">Weekly Newsletter!</h5>
+                  <p class="card-text">Sign up to out weekly newsletter for all the latest tips.</p>
+                  <a href="#" class="btn btn-primary">Sign up</a>
+                </div>
+              </div>
+            </div>            
           </div>
-       <div class="col col-md-8">
+          <!--Main content-->
+       <div class="col col-md-8 order-1 order-lg-2"></div>
            <div class="container-fluid bg-light">
-               <h2>What is Agile?</h2>
+               <h2>What Is Agile?</h2>
                <p>Agile is essentially a process in which you work towards shorter term goals and get them done,
                 <br>
                 implementing them into the program and allowing the client(user) to use the program even though it is not
@@ -63,8 +77,23 @@
                 <br>
                 <h3>Is the manifesto still a thing?</h3>
                 <p>Standing amidst the technological revolution, we find ourselves asking if the Agile Manifesto should still be our guide as we move into a world defined by continuous innovation. This short, but game-changing document helped take us from shipping products like they were cargo on boats to same-day delivery by drone. But today, we're less pioneers, and more like explorers on the seas of continuous improvement, which makes us wonder, is it time to improve the Manifesto, too?</p>
+                <br>
+                <br>
+                <h2>How It All Began</h2>
+                <p>In early 2001, against the backdrop of the Wasatch Mountains, in Snowbird, Utah, 17 people met to discuss the future of software development. The group’s members shared a frustration about the current state of affairs, even if they disagreed about how to remedy the situation.
+                    <br>
+                    <br>
+                    The problem, they agreed, was that companies were so focused on excessively planning and documenting their software development cycles that they lost sight of what really mattered. Pleasing their customers.
+                   <br> 
+                   <br>
+                    Companies may have touted corporate values like “excellence” and “integrity,” but these values did little to guide people, especially software developers, toward a better way. That needed to change. Many of the Snowbird 17 already had ideas about how to usher in software development’s new era. The trip to the mountains was their chance to hash it out.
+                    <br>
+                    <br>
+                    The Agile Manifesto emerged from this extended weekend at just 68 words, and the short and sweet document went on to change software development forever. In the nearly two decades since its creation, these words (and the 12 principles that follow) have been embraced (in varying degrees) by countless individuals, teams, and companies.
+                </p>
            </div>
          </div>
+         
 
 
 
@@ -99,4 +128,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+
+
+  <footer>
+    copyright stuff
+  </footer>
 </html>
